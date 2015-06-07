@@ -1,13 +1,12 @@
-pythonlab-classes
-=================
+# pythonlab-classes
 
 This is the page for sample code and other resources for the Saturday afternoon Python Lab at MLK Library.
 
-Sample code and other assorted materials are sorted by date. There are also resources listed for [installing](www.github.com/necaris/pythonlab-classes/Installing_PythonResources.md) and [learning](www.github.com/necaris/pythonlab-classes/Learning_Python_Resources.md) Python. It's a big help to everyone if you have Python and a text editor already installed when you come to class, but if you're having problems we'll do our best to sort you out!
+Sample code and other assorted materials are sorted by date. There are also resources listed for [installing](./installing.md) and [learning](./learning.md) Python. It's a big help to everyone if you have Python and a text editor already installed when you come to class, but if you're having problems we'll do our best to sort you out!
 
-NOTE: Traditionally the class has been using Python 2.7, but we've recently decided to switch to Python 3. More and more people are using 3 and there's lots of cool stuff in the works for it. Don't worry if you already have Python 2 installed or are using it with another class or tutorial, though. We can work with both! 
+NOTE: Traditionally the class has been using Python 2.7, but we've recently decided to switch to Python 3. More and more people are using 3 and there's lots of cool stuff in the works for it. Don't worry if you already have Python 2 installed or are using it with another class or tutorial, though. We can work with both!
 
-**If you have any questions please contact Rami, the course instructor, at...**
+**If you have any questions please contact Rami, the course instructor (through [Twitter](http://twitter.com/necaris), [Meetup](http://www.meetup.com/members/11745529/), or [email](mailto:rami at necaris dot net)) **
 
 ###A few notes on why it's great to learn Python###
 
