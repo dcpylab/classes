@@ -3,7 +3,7 @@
 # session led by Nathan Danielsen
 
 # Starter Code
- 
+import os
 import urllib
 
 url = 'https://raw.githubusercontent.com/fivethirtyeight/data/master/daily-show-guests/daily_show_guests.csv'
@@ -18,3 +18,4 @@ if not os.path.isfile(filename):
 else:
 	pass
 
+print 'hello world!!!'
