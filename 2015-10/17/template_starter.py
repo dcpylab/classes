@@ -15,8 +15,6 @@ def get_data(url=None, filename=None):
     """
     write a function that downloads a csv and returns the open csv file as a list of lists\
     """
-
-
     have_file_status = os.path.isfile(filename)
 
     if have_file_status:
