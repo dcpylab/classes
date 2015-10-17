@@ -24,6 +24,34 @@ if not os.path.isfile(filename):
 else:
     pass
 
-if __name__ == '__main__':
+# raw_data = []
 
-    print "Hello PYlab"
+with open(filename, 'r') as f:
+    reader = csv.reader(f, delimiter=',')
+    raw_data = list(reader)
+
+
+    # for row in reader:
+    #     raw_data.append(row)
+
+# print raw_data
+header = raw_data[0]
+rows = raw_data[1:]
+
+
+
+print header
+
+
+
+
+
+
+
+
+
+
+
+
+
+
