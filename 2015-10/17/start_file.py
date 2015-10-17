@@ -38,10 +38,9 @@ with open(filename, 'r') as f:
 header = raw_data[0]
 rows = raw_data[1:]
 
+# What are data types for each column?
 
-
-print header
-
+print row[0]
 
 
 
