@@ -1,7 +1,7 @@
 """
-HW for Intro to Python
+Tweet Analysis
 
-18 November 2015
+5 December 2015
 
 National Zoo Tweet Analysis Homework
 
