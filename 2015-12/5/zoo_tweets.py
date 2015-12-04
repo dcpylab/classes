@@ -23,16 +23,6 @@ zoo_csv = 'zoo_tweets.csv'
 ### Hint: This be the second (elem 2) of the list
 
 
-tweet_list = []
-
-with open(zoo_csv, 'r') as csvfile:
-    spamreader = csv.reader(csvfile, delimiter='|')
-    for row in spamreader:
-        tweet_list.append(row[2])
-
-print tweet_list
-
-
 
 ### Task 2
 ### Assign a variable called header for the first row.
