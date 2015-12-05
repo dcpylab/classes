@@ -32,11 +32,10 @@ zoo_csv = 'zoo_tweets.csv'
 
 
 
-
-
 ### Task 3
 ### Make an empty list called retweets
 ### Can you make a separate list of all retweets? 
+### Can you make make a list of tweets_at using a list comprehension?
 ### Hint: use a for loop to identify if a tweet starts with '.@'
 
 
@@ -63,6 +62,8 @@ zoo_csv = 'zoo_tweets.csv'
 
 
 if __name__ == '__main__':
+    import urrllib
+    
     url = 'https://raw.githubusercontent.com/ndanielsen/beginning-python/master/class/nov-18/hw/zoo_tweets.csv'
 
     filename = 'zoo_tweets.csv' 
