@@ -7,6 +7,8 @@ National Zoo Tweet Analysis Homework
 
 by NAthan for the pylab
 
+nathan.danielsen@gmail.com
+
 """
 import os
 import csv # What does this do?
@@ -44,7 +46,7 @@ header = tweet_text[0]
 
 rows = tweet_text[1:]
 
-print rows[0]
+# print rows[0]
 
 ### Task 3
 ### Make an empty list called retweets
@@ -53,13 +55,27 @@ print rows[0]
 ### Hint: use a for loop to identify if a tweet starts with '.@'
 
 retweets = []
+# 'RT'
 
 for row in rows:
     num, created_at, text = row
+    if text[:2] == 'RT':
+        retweets.append(row)
 
+sample = 'RT @KateGraves: Excited about the new Appalachian salamander exhibit @NationalZoo @smithsonian http://t.co/k71eQrLzV1'
 
+# print sample[:2]
 
+# print len(retweets)
 
+tweets_at = []
+
+for row in rows:
+    num, created_at, text = row
+    if text[:2] == '.@':
+        tweets_at.append(row)
+
+# print len(tweets_at)
 
 ### Task 4
 ### Make another empty list called hash_tags
@@ -67,11 +83,47 @@ for row in rows:
 ### add them to the list called hash_tags?
 ### Hint: you'll need a a for loop and an if statement word[0] == '#'
 
+hash_tags = []
 
+for row in rows:
+    num, created_at, text = row
 
+    for word in  text.split():
+        if word[0] == '#':
+            hash_tags.append(word)
+
+# print hash_tags
+
+set_hashtag = set(hash_tags)
+
+# print sorted(set_hashtag)
 
 ### Task 5
+### Create an empty list called panda_tweets
 ### Make another list with all tweets that mention #pandastory
+### 
+panda_tweets = []
+
+for row in rows:
+    num, created_at, text = row
+    for word in  text.split():
+        text = text.lower()
+
+        if word == '#pandastory' or word == '#beibei' or word == '#baobao':
+            panda_tweets.append(text)
+
+# print panda_tweets
+
+
+panda_words = ['panda', 'bei', 'bao', 'mei']
+
+hashtag_set = set()
+
+# for htag in sorted(set_hashtag):
+#     [hashtag_set.add(htag) for word in panda_words if word in htag]
+    
+if 'panda' in '#pandastory':
+    print 'its in there'
 
 
 
