@@ -139,18 +139,7 @@ panda_tweets = hash_tags = [tweet for tweet in tweet_list for word in tweet.spli
 
 panda_tweets = hash_tags = [tweet for tweet in tweet_list for word in tweet.split() if word.lower() in hashtag_set]
 
-# print len(panda_tweets)
-
-
-#### What other hashtags appear with panda related tweets? (network analysis)
-
-
-# panda_related_tags = set()
-
-# for tweets in panda_tweets:
-#     [panda_related_tags.add(word.lower() for tweet in tweet_list for word in tweet.split() if word[0] =='#')]
-
-# print panda_related_tags
+print len(panda_tweets)
 
 
 
