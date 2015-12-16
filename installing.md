@@ -24,10 +24,11 @@ Windows requires you to install Python, which can be confusing if you're new to 
 **Mac**
 
 Python comes pre-installed with OSX. All you need to do is open the Terminal application and type the following:
+```
+~$ python
+```
 
-'''~$ python'''
-
-this will start a Python instance, and everything else you type in the terminal window will be treated as Python.
+this will start Python in interactive mode, and everything else you type in the terminal window will be treated as Python code.
 
 **Linux**
 
