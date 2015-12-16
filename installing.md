@@ -19,7 +19,7 @@ Windows requires you to install Python, which can be confusing if you're new to 
 
 * [The official Python Documentation](https://docs.python.org/2/using/windows.html#installing-python), which has a couple helpful links.
 
-* If you plan ot use Python for data analytics you can download [Anaconda](http://continuum.io/downloads#all), a Python distribution that comes with many of the most popular packages for analytics as well as Spyder, an interactive environment similar to what you're used to if you've used SaS, Stata, SPSS, or R Studio.
+* If you plan to use Python for data analytics you can download [Anaconda](http://continuum.io/downloads#all), a Python distribution that comes with many of the most popular packages for analytics as well as Spyder, an interactive environment similar to what you're used to if you've used SaS, Stata, SPSS, or R Studio.
 
 **Mac**
 
@@ -37,7 +37,7 @@ This depends on the Linux distribution you're using, but it will most likely be 
 
 There are quite a few to choose from, but some of the most popular include-
 
-* [SublimeText2](http://www.sublimetext.com/2)(Mac, Windows, Linux)
+* [Sublime Text 2](http://www.sublimetext.com/2)(Mac, Windows, Linux)
 
 * [Atom](https://atom.io/)(Mac, Windows, Linux)
 
