@@ -51,6 +51,7 @@ try:
         prices.append([s['Close'] for s in date_info])
 except BadDataError:
 #     print "Oh dear!"
+    pass
 
 series1 = [x[0] for x in prices]
 series2 = [x[1] for x in prices]
