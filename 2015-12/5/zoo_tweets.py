@@ -13,7 +13,8 @@ nathan.danielsen@gmail.com
 import os
 import csv # What does this do?
 
-zoo_csv = 'zoo_tweets.csv' 
+zoo_csv = 'hw/zoo_tweets.csv' 
+
 
 ### Task 1a
 ### Open and read the csv file using the csv.reader function
@@ -27,6 +28,7 @@ with open(zoo_csv, 'rb') as csvfile:
     for row in tweetreader:
         tweet_text.append(row)
 
+print tweet_text
 # print tweet_text
 
 ### Task 1b
