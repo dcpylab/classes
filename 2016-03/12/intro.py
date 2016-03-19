@@ -11,6 +11,7 @@ def main():
     wn = turtle.Screen()
     wn.setup(1000,1000)
     wn.colormode(255)
+    wn.bgcolor("black") 
     tList = []
     head = 0
     numTurtles = 10
@@ -41,3 +42,8 @@ def moveTurtles(turtleList,dist,angle):
         turtle.right(angle)
 
 main()
+
+
+
+
+
