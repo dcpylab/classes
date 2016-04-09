@@ -14,6 +14,9 @@ Analyzing Project Gutenberg's The Innocents Abroad, by Mark Twain (Samuel Clemen
 
 # https://www.gutenberg.org/ebooks/3176
 
+Feel free to reach out with questions
+nathan.danielsen@gmail.com 
+
 """
 # Constants
 
