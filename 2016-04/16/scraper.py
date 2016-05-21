@@ -2,6 +2,7 @@
 # Script to scrape Reddit's '/r/DailyProgrammer' subreddit and extract the 'Easy'
 # challenges, along with links to them
 #
+<<<<<<< d85227c1545620e1bf591f8a799b8a7e3c825abd
 from __future__ import print_function
 import re
 from collections import defaultdict
@@ -33,3 +34,10 @@ for category in categories:
 
 
 
+=======
+import bs4
+import requests
+
+response = requests.get('http://www.reddit.com/r/DailyProgrammer/')
+import pdb; pdb.set_trace()
+>>>>>>> Belated updates
