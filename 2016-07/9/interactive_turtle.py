@@ -2,6 +2,7 @@
 Code from:
 http://code.activestate.com/recipes/580544-simple-drawing-tool-with-python-turtle-graphics/
 
+email nathan.danielsen [a] gmail for help or feedback
 """
 import turtle
 
@@ -65,6 +66,8 @@ def quit():
 
 
 ### add a function to change the color to a custome turtle green color( #32D486)
+
+
 
 t.onkey(forward, "Up")
 t.onkey(left, "Left")
