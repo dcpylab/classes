@@ -3,12 +3,9 @@ Code from:
 http://code.activestate.com/recipes/580544-simple-drawing-tool-with-python-turtle-graphics/
 
 """
-
-
 import turtle
 
 # Create and set up screen and turtle.
-
 t = turtle
 # May need to tweak dimensions below for your screen.
 t.setup(600, 600)
@@ -61,7 +58,7 @@ def quit():
 ### add a pen down function
 
 
-### add function change pen color to blue 
+### add function change pen color to blue
 
 
 ### add function to change color back to black
