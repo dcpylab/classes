@@ -27,5 +27,9 @@ for i in incidents:
     station_name = i['StationName']
     names.add(station_name)
 
-print(len(incidents))
-print(len(names))
+# print(len(incidents))
+# print(len(names))
+
+import pandas
+incidents_df = pandas.DataFrame(incidents)
+incidents_df[incidents_df.StationName == 'Chinatown']
