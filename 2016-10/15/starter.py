@@ -2,7 +2,7 @@
     Pylab 15 Oct 2016
     "How many babies are born on Feb 29th?"
 
-    We're going to be going at the data behind these stories and see if it adds up:
+    We're going to be looking at the data behind these stories and see if it adds up:
 
     http://fivethirtyeight.com/features/some-people-are-too-superstitious-to-have-a-baby-on-friday-the-13th/
     http://fivethirtyeight.com/features/lots-of-parents-dont-want-their-kids-to-be-born-on-leap-day/
