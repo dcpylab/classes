@@ -42,7 +42,8 @@ def file_downloader(url, filename):
         urlretrieve(url, filename)
         print('File: %s downloaded' % filename)
     if os.path.isfile(filename):
-        print('File: %s present and ready to go!' % filename)
+        file_location = os.path.realpath(filename)
+        print('File: %s is located: %s' % (filename, file_location))
 
 if __name__ == '__main__':
 
