@@ -28,5 +28,6 @@ Download the starter file and review it. Run 'hello world' with your code buddy.
 Contact me:
 Nathan @nate_somewhere
 
-More learning resources at:
+
+###### More python learning resources at:
 https://github.com/ndanielsen/beginning-python
