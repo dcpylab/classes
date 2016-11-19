@@ -1,7 +1,7 @@
 ### Pylab 19 Nov 2016
-"Fact Check the Washington Post Fact Checkers"
+"Does the Washington Post fact checking hold up over time?"
 
-We're going to be looking at one of looking at the data sources for the WP's Fact Checker story: "Giuliani’s claim the White House invited Al Sharpton up to 85 times" and see if we can basically recreate their process and confirm-or-deny their conclusion.
+We're going to be looking at one of looking at the data sources for the WP's Fact Checker story: "Giuliani’s claim the White House invited Al Sharpton up to 85 times" and see if we can basically recreate their process for 2015 and 2016. Does their fact-checker hold up over time?
 
 ###### Story:
 https://www.washingtonpost.com/news/fact-checker/wp/2014/12/30/giulianis-claim-the-white-house-invited-al-sharpton-up-to-85-times/
