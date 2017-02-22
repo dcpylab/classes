@@ -14,10 +14,13 @@ From the following header extract:
 3. Extract the author
 4. Extract the photographer
 
-*Hint*: Google something called repr and check what `print(repr(header))` tells you.
+*Hint*: Google something called repr and check what `print(repr(header))`
+tells you.
 
-Note: For a guided, step by step solution in jupyter notebooks go to:
+Note: For a guided and step by step solution explanation in jupyter notebooks go to:
 https://github.com/ncclementi/dcpython_exercises/blob/master/02-18-17_application_real_data.ipynb
+
+You will also find useful links and some extra tips to try in your script.
 """
 
 header = """
