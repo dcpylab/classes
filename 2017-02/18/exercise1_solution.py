@@ -20,6 +20,28 @@ Note: For a guided, step by step solution in jupyter notebooks go to:
 https://github.com/ncclementi/dcpython_exercises/blob/master/02-18-17_application_real_data.ipynb
 """
 
+header = """
+    My President Was Black
+    A history of the first African American White House—and of what came next
 
+    By Ta-Nehisi Coates
+    Photograph by Ian Allen
+    """
 
+#Using the hint:
+#Uncomment the following line to see the output of repr(header)
+
+#print(repr(header))
+
+#Splitting and saving to a list.
+header_list = header.split('\n')
+
+#Removing extra white spaces in each element of our list.
+for i in range(len(header_list)):
+    header_list[i] = header_list[i].strip()
+
+#Removing empty ('') elements.
+for element in header_list:
+    if element == '':
+        header_list.remove(element)
 
