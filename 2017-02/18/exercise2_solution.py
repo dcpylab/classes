@@ -109,3 +109,39 @@ for word in words_list:
 
 #print('The word Obama in first_paragraph appears {} times.'.format(obama_count))
 
+# Part 4: If you remove all of the punctuation and lower case all text, how many words?
+
+#Lower case the whole paragraph and save into lower_paragrpah
+lower_paragraph = first_paragraph.lower()
+
+#Remove punctuation
+
+#First we import the string constants available in python.  
+import string
+
+#Let's print the string punctuation (uncomment next line to print).
+#print(string.punctuation)
+
+#loop in the character of string.punctuation and we replace the characters that appear
+#in our lower_paragraph for a space. 
+for character in string.punctuation:
+    lower_paragraph = lower_paragraph.replace(character, ' ')
+
+#If you print the new lowe_paragraph you'll notice that we missed some characters
+#We will remove them too, for detail explanation go to the jupyter notebook link
+# located in the header at the top of this script.  
+
+more_punct = '’‘“”—\n'
+for character in more_punct:
+    lower_paragraph = lower_paragraph.replace(character, ' ')
+
+#With all the possible punctuation removed, now let's count words.
+no_punctuation_list = lower_paragraph.split()
+words_no_punctuation = len(no_punctuation_list)
+
+#PRINTING ALL THE INFO REQUIRED TOGETHER:
+
+print('The amount of words in first_paragraph is: ', words)
+print('The amount of sentences in first_paragraph is: ', sentences)
+print('The word Obama in first_paragraph appears {} times.'.format(obama_count))
+print('The amount of words in the paragraph with no punctuation is: ', words_no_punctuation)  
