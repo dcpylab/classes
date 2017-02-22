@@ -45,3 +45,13 @@ for element in header_list:
     if element == '':
         header_list.remove(element)
 
+#Getting title and introduction.
+title = header_list[0]
+intro = header_list[1]
+
+#Getting author and photographer.
+#Here we strip out the part we don't want.
+author = header_list[2].strip('By ')
+photographer = header_list[3].strip('Photograph by ')
+
+
