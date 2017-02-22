@@ -54,4 +54,10 @@ intro = header_list[1]
 author = header_list[2].strip('By ')
 photographer = header_list[3].strip('Photograph by ')
 
+#Print information required
+print('Title       : ', title)
+print('Introduction: ', intro)
+print('Author      : ', author)
+print('Photographer: ', photographer)
+
 
