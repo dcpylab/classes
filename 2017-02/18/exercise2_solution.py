@@ -45,7 +45,7 @@ for element in revised_paragraph:
     if element == '—':
         revised_paragraph = revised_paragraph.replace(element, ' ')
 
-#Uncomment to print how it looks our revised_paragraph list
+#Uncomment to print how it looks our revised_paragraph.
 #print(revised_paragraph)
 
 #Split into words and save to list.
@@ -60,13 +60,52 @@ words = len(words_list)
 #print('The amount of words in first_paragraph is: ', words)
 
 
+# Part 2: How many sentences are in the first paragraph?
 
+#We want to keep first_paragraph without changes, so we create a copy, in this
+#case the copy will have replce  ? by . and also \n by '' . 
 
+#First replace ? by .
+sentence_paragraph = first_paragraph.replace('?', '.')
+#Now replace \n by ''
+sentence_paragraph = sentence_paragraph.replace('\n', '')
 
+#Split the paragraph into sentences
+sentence_list = sentence_paragraph.split('.')
 
+#Uncomment to print how it looks our sentence_list
+#print(paragraph_list)
 
+#Let's remove the '' elements
+for element in sentence_list:
+    if element == '':
+        sentence_list.remove(element)
 
+#Now our sentences_list just contains the sentences, let's use len() to count
+# the amount of sentences.
+sentences = len(sentence_list)
 
+#Uncomment next print line to print here the amount of sentences.
+#We will print all the information asked at the end too. 
 
+#print('The amount of sentences in first_paragraph is: ', sentences)
 
- 
+#Part 3 : How many times is the word 'Obama' is in the first paragraph?
+#The following is a comment
+'''
+If you read the paragraph you might have notice that in some parts the Word
+Obama appears as "Obama's". We want to count that case; therefore, we will look
+for the string 'Obama' in wach word of the word_list. If the string is in the
+word we will add 1 to the variable obama_count (initialized in 0). 
+'''
+#code
+obama_count = 0
+for word in words_list:
+    if 'Obama' in word:
+        obama_count +=1   
+
+#Uncomment next print line to print here the amount of sentences.
+#We will print all the information asked at the end too. 
+
+#print('The word Obama in first_paragraph appears {} times.'.format(obama_count))
+
