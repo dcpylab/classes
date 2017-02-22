@@ -15,6 +15,11 @@ From the following header extract:
 4. Extract the photographer
 
 *Hint*: Google something called repr and check what `print(repr(header))` tells you.
+
+Note: For a guided, step by step solution in jupyter notebooks go to:
+https://github.com/ncclementi/dcpython_exercises/blob/master/02-18-17_application_real_data.ipynb
 """
+
+
 
 
