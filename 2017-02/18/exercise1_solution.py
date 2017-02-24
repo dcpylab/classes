@@ -44,9 +44,7 @@ for i in range(len(header_list)):
     header_list[i] = header_list[i].strip()
 
 #Removing empty ('') elements.
-for element in header_list:
-    if element == '':
-        header_list.remove(element)
+header_list = list(filter(lambda item: item!='' , header_list))  
 
 #Getting title and introduction.
 title = header_list[0]
