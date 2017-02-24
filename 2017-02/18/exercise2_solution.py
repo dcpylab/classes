@@ -77,9 +77,7 @@ sentence_list = sentence_paragraph.split('.')
 #print(paragraph_list)
 
 #Let's remove the '' elements
-for element in sentence_list:
-    if element == '':
-        sentence_list.remove(element)
+sentence_list = list(filter(lambda item: item!='' , sentence_list))
 
 #Now our sentences_list just contains the sentences, let's use len() to count
 # the amount of sentences.
