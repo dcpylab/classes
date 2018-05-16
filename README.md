@@ -6,7 +6,7 @@ Sample code and other assorted materials are sorted by date. There are also reso
 
 NOTE: The class uses the current version of Python (Python 3), but originally used Python 2.7. So don't worry if you already have Python 2 installed or are using it with another class or tutorial. We can work with both!
 
-**If you have any questions please contact Rami, the course instructor (through [Twitter](http://twitter.com/necaris), [Meetup](http://www.meetup.com/members/11745529/), or [email](mailto:rami at necaris dot net)) **
+**If you have any questions please contact Rami, the course instructor (through [Twitter](http://twitter.com/necaris), [Meetup](http://www.meetup.com/members/11745529/), or [email](mailto:rami at necaris dot net) )**
 
 ### A few notes on why it's great to learn Python
 
