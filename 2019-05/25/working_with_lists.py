@@ -9,7 +9,7 @@ length = len(names)
 
 print("The length of the list is %d" % length)
 
-# Let's create a new list with all of the names in upper case"
+# Let's create a new list with all of the names in upper case
 
 upper_case_names = []
 
@@ -22,10 +22,10 @@ print(list.sort.__doc__)
 # Sort the list *in place*
 upper_case_names.sort()
 
-# Remove an item from the list by it's index
+# Remove an item from the list by its index
 upper_case_names.pop(0)
 
-# Remove an item from the list by it's value 
+# Remove an item from the list by its value 
 upper_case_names.remove("BOB")
 
 # Append an item to the *end* of a list
